@@ -1,0 +1,23 @@
+.flex-container {
+    border: 3px solid #333;
+    width: 600px;
+    height: 600px;
+    display: flex;
+    /* flex-direction: column; */
+    /* flex-wrap: ; */
+    /* flex-flow: column wrap; */
+    /* align-items: baseline; */
+    /* align-content: space-around; */
+    /* justify-content: space-around; */
+}
+
+.box {
+    background: orange;
+    border: 2px solid  gray;
+    padding: 0 50px;
+    border-radius: 5px;
+}
+
+.box:nth-child(1) {
+    padding-top: 25px;
+}
